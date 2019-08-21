@@ -1,0 +1,17 @@
+body {
+    background-color: #167cc8;
+}
+
+.background {
+    background-color: white;
+}
+
+.background-2 {
+    background-color: #2a2a2a;
+}
+
+.btn {
+    background-color: #002f7d;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
