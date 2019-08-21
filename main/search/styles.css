@@ -1,0 +1,73 @@
+body {
+    background-color: #167cc8;
+}
+
+.background {
+    background-color: white;
+}
+
+.background-2 {
+    background-color: #2a2a2a;
+}
+
+.btn {
+    background-color: #002f7d;
+    padding-right: 1.8rem;
+    padding-left: 2rem;
+    border-width: 0.1em;
+    border-color: silver;
+    border-style: outset;
+}
+
+.main-mrgn {
+    margin-top: 15rem;
+}
+
+.paddn-tp {
+    padding-top: 1.5rem;
+}
+
+.paddn-lft {
+    padding-left: 22rem;
+}
+
+.paddn-lft-2 {
+    padding-left: 12rem;
+}
+
+.img {
+    width: 2.7rem;
+}
+
+.img-2 {
+    padding-left: 4rem;
+    padding-bottom: 1rem;
+    width: 10rem;
+}
+
+.margn-tp {
+    margin-bottom: -11px;
+    margin-top: -9px;
+}
+
+.paddn-tp-btm {
+    padding-top: 1.7rem;
+    padding-bottom: 1.7rem;
+    font-size: 19px;
+}
+
+.paddn-tp-btm-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h5 {
+    font-size: 17px;
+}
+
+
+
