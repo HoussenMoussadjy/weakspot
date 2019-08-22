@@ -6,6 +6,20 @@ body {
     background-color: white;
 }
 
+.background-4 {
+    background-color: #2a2a2a;
+}
+
+.background-2 {
+    background: url("../../assets/weakspot-mesuer-empreinte-web.jpg");
+    background-size: cover;
+}
+
+.background-3 {
+    background: url("../../assets/weakspot-mesuer-empreinte-web2.jpg");
+    background-size: cover;
+}
+
 .mrgn {
     margin-bottom: -10px;
     margin-top: -12px;
@@ -50,4 +64,9 @@ body {
 
 .btn-2 {
     background-color: #002f7d;
+}
+
+.paddn-tp-btm-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
 }
