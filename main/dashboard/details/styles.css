@@ -1,5 +1,5 @@
 body {
-    background-color: #167cc8;
+    background: linear-gradient(to left, #1487cb 25%, #1f5cc0 100%);
 }
 
 .background {
@@ -13,11 +13,19 @@ body {
 .background-2 {
     background: url("../../assets/weakspot-mesuer-empreinte-web.jpg");
     background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .background-3 {
     background: url("../../assets/weakspot-mesuer-empreinte-web2.jpg");
     background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.fas {
+    color: #8f8f8f;
 }
 
 .mrgn {
@@ -31,6 +39,10 @@ body {
 
 .mrgn-3 {
     margin-top: 6rem;
+}
+
+.mrgn-4 {
+    margin-bottom: 3.5rem;
 }
 
 .img {
@@ -58,15 +70,45 @@ body {
     background-color: #135694;
 }
 
+.btn {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
 .btn-1 {
     color: #002f7d;
 }
 
 .btn-2 {
     background-color: #002f7d;
+    margin-left: 1.4rem;
+}
+
+.btn-3 {
+    background: linear-gradient(to right, #1f5fc2 0%, #00bffe 100%);
 }
 
 .paddn-tp-btm-2 {
     padding-top: 0.5rem;
     padding-bottom: 0.3rem;
+}
+
+.fnt {
+    font-size: 80px;
+}
+
+.fnt-2 {
+    font-size: 24px;
+}
+
+.txt-color {
+    color: #bbe5ff;
+}
+
+.w {
+    width: 6rem;
+}
+
+.w-2 {
+    width: 5rem;
 }
