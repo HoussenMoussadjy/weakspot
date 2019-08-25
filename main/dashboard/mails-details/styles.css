@@ -14,6 +14,15 @@ h5 {
     font-size: 16px;
 }
 
+.table-1 {
+    max-height: 620px;
+    width: 300px;
+}
+
+.table-2 {
+    margin-left: 2rem;
+}
+
 .background {
     background-color: white;
 }
@@ -64,6 +73,11 @@ h5 {
 .mrgn-4 {
     margin-bottom: 3.5rem;
     margin-top: 2rem;
+}
+
+.mrgn-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .img {
@@ -155,4 +169,8 @@ h5 {
 
 .text-primary {
     font-size: 13px;
+}
+
+.paddn-btm {
+    padding-bottom: 5rem;
 }
