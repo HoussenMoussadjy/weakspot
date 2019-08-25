@@ -13,8 +13,213 @@
             ="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity
             ="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a0fc83c553.js"></script>
 </head>
-<body>
 
+<body>
+<div class="container-fluid">
+    <header>
+        <div class="row justify-content-between background">
+            <div class="col-sm-3 align-self-center">
+                <nav class="navbar navbar-light bg-white">
+                    <a class="navbar-brand" href="../../home/">
+                        <img src="../../assets/logo-weakspot.svg" alt="..." class="img">
+                    </a>
+                </nav>
+            </div>
+            <div class="col-sm-5 align-self-center">
+                <div class="inner-addon left-addon">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="form-control font-weight-light border-top-0
+                    border-left-0 border-right-0 rounded-0"
+                           placeholder=" Entrez un nom de domaine ou une adresse email pour vérifier votre exposition"/>
+                </div>
+            </div>
+            <div class="col-sm-3 mrgn-2">
+                <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                    <img src="../../assets/icon-user.svg" alt="..." class="img-2">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle mrgn" href="#" id="navbarDropdownMenuLink"
+                                   role="button"
+                                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span class="text-dark">Aurélien Boit </span><br><span class="text-primary">
+                                    10 crédits</span>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="../../home/">Déconnexion</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="row justify-content-center mrgn-3">
+        <div class="col-sm-4.5 text-center">
+            <img src="../../assets/icon-points-attention.svg" class="w" alt="...">
+            <h1 class="text-light">3 points d'attention</h1>
+            <p class="txt-color">Les résultats ci-dessous représentent votre exposition face<br>aux 3 premières
+                faiblesses couramment utilisées pour le piratage d'une entreprise.</p>
+            <p class="text-light fnt-2 font-weight-light">Environnement du 28/06/2018</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center card-row">
+        <div class="col-sm-3 card-1">
+            <a href="../mails-details/">
+                <div class="card shadow-lg p-3 mb-5 border border-0 rounded text-white text-center p-3">
+                    <blockquote class="blockquote">
+                        <h3 class="fnt font-weight-light">114</h3>
+                        <p class="font-weight-light">adresses mail<br>dont les mots de passe<br>sont publics</p>
+                        <footer>
+                            <img src="../../assets/icon-email.svg" class="w-2" alt="...">
+                        </footer>
+                    </blockquote>
+                </div>
+            </a>
+            <p class="text-center text-white font-weight-bold paragraph">Détails et recommendations</p>
+        </div>
+        <div class="col-sm-3 card-2">
+            <div class="card shadow-lg p-3 mb-5 border border-0 text-white text-center p-3">
+                <blockquote class="blockquote">
+                    <h3 class="fnt font-weight-light">38</h3>
+                    <p class="font-weight-light">Mises à jour<br>d'applications web<br>(CMS)</p>
+                    <footer>
+                        <img src="../../assets/icon-maj-cms.svg" class="w-2" alt="...">
+                    </footer>
+                </blockquote>
+            </div>
+            <p class="text-center text-white font-weight-bold paragraph">Détails et recommendations</p>
+        </div>
+        <div class="col-sm-3">
+            <div class="card shadow-lg p-3 mb-5 border border-0 text-white text-center p-3">
+                <blockquote class="blockquote">
+                    <h3 class="fnt font-weight-light">23</h3>
+                    <p class="font-weight-light">services d'admin.<br>exposés ou<br>mal configurés</p>
+                    <footer>
+                        <img src="../../assets/icon-settings.svg" class="w-2" alt="...">
+                    </footer>
+                </blockquote>
+            </div>
+            <p class="text-center text-white font-weight-bold paragraph">Détails et recommendations</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center mrgn-4">
+        <div class="col-sm-1.5">
+            <button type="button" class="btn bg-white btn-1 font-weight-bold">PLUS D'INDICATEURS</button>
+        </div>
+        <div class="col-sm-1.5">
+            <button type="button" class="btn text-white btn-2 font-weight-bold">HISTORIQUE (10)</button>
+        </div>
+    </div>
+
+    <div class="row background-5">
+        <div class="col-sm-12 text-center text-light">
+            <img src="../../assets/icon-email.svg" alt="..." class="w-2">
+            <h3>114 adresses email</h3>
+            <p>dont les mots de passe sont publics</p>
+        </div>
+    </div>
+
+    <div class="row justify-content-center background-5">
+        <div class="col-sm-5">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Adresse email</th>
+                    <th scope="col">Base de données</th>
+                </tr>
+                </thead>
+                <tbody class="text-light">
+                <tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr><tr>
+                    <th scope="row">jean.paul@entreprise.fr</th>
+                    <td>Linkedin</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="col-sm-5 border">
+            <table class="table table-borderless">
+                <thead class="text-light">
+                <tr>
+                    <th scope="col">NOS RECOMMENDATIONS</th>
+                </tr>
+                </thead>
+                <tbody class="text-light">
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Titre de la recommandation
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam.</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Titre de la recommandation
+                        Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam ad vero</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Titre de la recommandation
+                        Sed ut perspiciatis unde omnis iste natus sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque.</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 </body>
 </html>
