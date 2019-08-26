@@ -15,12 +15,17 @@ h5 {
 }
 
 .table-1 {
-    max-height: 620px;
-    width: 300px;
+    max-height: 500px;
+    width: 660px;
 }
 
 .table-2 {
     margin-left: 2rem;
+}
+
+.table-head {
+    margin-bottom: -2px;
+    width: 660px;
 }
 
 .background {
@@ -63,7 +68,7 @@ h5 {
 }
 
 .mrgn-2 {
-    padding-left: 9.5rem;
+    padding-left: 11.5rem;
 }
 
 .mrgn-3 {
